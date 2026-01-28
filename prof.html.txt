@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextLevel AI - Professional Solutions Ghana</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, sans-serif; background: #fff; color: #0f172a; }
+        .header { position: fixed; top: 0; width: 100%; background: rgba(15,23,42,0.95); padding: 20px 0; z-index: 1000; border-bottom: 3px solid #dc2626; }
+        .nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 30px; }
+        .logo { font-size: 2.5rem; font-weight: 900; color: white; text-decoration: none; }
+        .logo .ai { color: #dc2626; text-shadow: 0 0 20px rgba(220,38,38,0.8); }
+        .whatsapp-btn { background: linear-gradient(135deg, #25d366, #20c05a); color: white; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: 700; }
+        .hero { background: linear-gradient(135deg, #0f172a 0%, #374151 50%, #dc2626 100%); color: white; padding: 140px 20px 100px; min-height: 100vh; display: flex; align-items: center; text-align: center; }
+        .hero h1 { font-size: 4rem; font-weight: 900; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .highlight { color: #f59e0b; text-shadow: 0 0 30px rgba(245,158,11,0.6); }
+        .hero-subtitle { font-size: 1.6rem; margin-bottom: 50px; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .problem-tags { display: flex; justify-content: center; gap: 25px; margin: 50px 0; flex-wrap: wrap; }
+        .problem-tag { background: rgba(255,255,255,0.1); padding: 15px 30px; border-radius: 30px; font-weight: 600; border: 2px solid rgba(220,38,38,0.3); }
+        .hero-buttons { display: flex; justify-content: center; gap: 25px; margin-top: 60px; flex-wrap: wrap; }
+        .btn { padding: 22px 45px; border-radius: 50px; text-decoration: none; font-weight: 800; font-size: 1.2rem; transition: all 0.3s ease; }
+        .btn-primary { background: linear-gradient(135deg, #dc2626, #991b1b); color: white; }
+        .btn-secondary { background: linear-gradient(135deg, #25d366, #20c05a); color: white; }
+        .btn:hover { transform: translateY(-5px); }
+        .section { padding: 80px 20px; text-align: center; }
+        .section-title { font-size: 3rem; font-weight: 900; margin-bottom: 25px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px; max-width: 1200px; margin: 0 auto; }
+        .card { background: white; padding: 40px; border-radius: 25px; box-shadow: 0 20px 60px rgba(0,0,0,0.1); transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-10px); border: 3px solid #dc2626; }
+        .card-icon { font-size: 4rem; color: #dc2626; margin-bottom: 20px; }
+        .card h3 { font-size: 1.8rem; margin-bottom: 15px; font-weight: 800; }
+        .highlight-metric { background: linear-gradient(135deg, #dc2626, #991b1b); color: white; padding: 15px; border-radius: 10px; font-weight: 800; margin-top: 20px; }
+        .contact { background: #0f172a; color: white; }
+        .whatsapp-cta { background: linear-gradient(135deg, #25d366, #20c05a); padding: 60px; border-radius: 25px; margin: 40px auto; max-width: 700px; }
+        .whatsapp-cta h3 { font-size: 2.5rem; margin-bottom: 20px; font-weight: 900; }
+        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .contact-card { background: rgba(255,255,255,0.1); padding: 30px; border-radius: 20px; text-align: center; }
+        .footer { background: #0f172a; color: white; padding: 40px 20px; text-align: center; border-top: 6px solid #dc2626; }
+        .footer-link { color: #dc2626; text-decoration: none; font-weight: 700; margin: 0 20px; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } .problem-tags { flex-direction: column; align-items: center; } .hero-buttons { flex-direction: column; align-items: center; } }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <a href="#" class="logo">NextLevel<span class="ai">AI</span></a>
+            <a href="https://wa.me/233597255731" class="whatsapp-btn">💬 WhatsApp</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>STOP LOSING <span class="highlight">₵1,000+</span> DAILY</h1>
+            <p class="hero-subtitle">NextLevel AI transforms Ghana businesses with intelligent automation that eliminates daily losses and accelerates growth</p>
+            
+            <div class="problem-tags">
+                <div class="problem-tag">📞 Missing 50+ Calls Daily</div>
+                <div class="problem-tag">⏰ 4+ Hours Manual Work</div>
+                <div class="problem-tag">💸 ₵500-1,500 Daily Losses</div>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="https://wa.me/233597255731?text=Hello NextLevel AI! I am losing money daily. I need professional consultation immediately." class="btn btn-secondary">💬 EMERGENCY CONSULTATION</a>
+                <a href="mailto:nextlevelai63@gmail.com" class="btn btn-primary">📧 PROFESSIONAL INQUIRY</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">PROVEN AI SOLUTIONS</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">🤖</div>
+                <h3>AI Customer Service</h3>
+                <p>Intelligent WhatsApp automation that responds instantly and converts inquiries into sales</p>
+                <div class="highlight-metric">PREVENT ₵500-1,200 DAILY LOSSES</div>
+            </div>
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <h3>Business Intelligence</h3>
+                <p>Real-time analytics showing exactly where your money goes with predictive insights</p>
+                <div class="highlight-metric">INCREASE PROFITS 40-80%</div>
+            </div>
+            <div class="card">
+                <div class="card-icon">⚙️</div>
+                <h3>Operation Automation</h3>
+                <p>Complete automation of booking, billing, and administrative tasks</p>
+                <div class="highlight-metric">SAVE 5-8 HOURS DAILY</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact">
+        <h2 class="section-title">STOP LOSING MONEY TODAY</h2>
+        
+        <div class="whatsapp-cta">
+            <div style="font-size: 5rem; margin-bottom: 20px;">💬</div>
+            <h3>GET EMERGENCY CONSULTATION</h3>
+            <p style="margin-bottom: 30px;">Connect instantly with our AI specialists and stop daily business losses</p>
+            <a href="https://wa.me/233597255731?text=URGENT: I am losing money daily! I need NextLevel AI help immediately." class="btn btn-primary">START EMERGENCY CHAT</a>
+        </div>
+        
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div style="font-size: 3rem; color: #dc2626; margin-bottom: 15px;">📱</div>
+                <h4>WhatsApp Direct</h4>
+                <p><strong>0597255731</strong><br>Response: Under 5 minutes</p>
+            </div>
+            <div class="contact-card">
+                <div style="font-size: 3rem; color: #dc2626; margin-bottom: 15px;">📧</div>
+                <h4>Professional Email</h4>
+                <p><strong>nextlevelai63@gmail.com</strong><br>Enterprise consultations</p>
+            </div>
+            <div class="contact-card">
+                <div style="font-size: 3rem; color: #dc2626; margin-bottom: 15px;">🌍</div>
+                <h4>Service Coverage</h4>
+                <p><strong>All Ghana Regions</strong><br>Accra • Kumasi • Tamale</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3 style="font-size: 2rem; color: #dc2626; margin-bottom: 15px;">NextLevel<span style="color: white;">AI</span></h3>
+        <p style="margin-bottom: 20px;">GHANA'S LEADING AI SOLUTIONS PROVIDER</p>
+        <div>
+            <a href="https://wa.me/233597255731" class="footer-link">💬 WhatsApp: 0597255731</a>
+            <a href="mailto:nextlevelai63@gmail.com" class="footer-link">📧 nextlevelai63@gmail.com</a>
+        </div>
+        <p style="margin-top: 20px; opacity: 0.8;">&copy; 2024 NextLevel AI Ghana</p>
+    </footer>
+</body>
+</html>
